@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  height: 100vh;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+}
+
+.container {
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  width: 100%;
+  height: 100vh;
+}
+
+section#main {
+  position: relative;
+  background: url("../BG.jpeg") no-repeat center center/ cover;
+}
+
+section#about {
+  position: relative;
+  background: url("../phone_bg.jpeg") no-repeat center center/ cover;
+}
+
+section#skills {
+  position: relative;
+  background: url("../city.jpeg") no-repeat center center/ cover;
+}
+
+.All_skills {
+  left: -40vh;
+  position: relative;
+  text-align: left;
+}
+
+.abt_text {
+  width: 80%;
+}
+
+h1 {
+  color: rgba(245, 245, 245, 0.808);
+}
+
+h2 {
+  color: rgba(245, 245, 245, 0.808);
+}
+
+p {
+  color: white;
+}
+
+#h {
+  font-size: 4rem;
+  position: absolute;
+  top: 20vh;
+}
+#p {
+  font-size: 1rem;
+  position: absolute;
+  top: 34vh;
+}
+
+#abt_h {
+  font-size: 4rem;
+  position: absolute;
+  top: 20vh;
+  left: 30vh;
+}
+#abt_p {
+  font-size: 1.5rem;
+  position: absolute;
+  width: 40%;
+  top: 34vh;
+  left: 8vh;
+}
+
+#skills_h {
+  font-size: 4rem;
+}
