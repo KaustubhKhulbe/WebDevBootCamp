@@ -5,15 +5,17 @@ body {
 }
 
 #pro {
-  font-style: unde;
+  text-decoration: underline;
 }
 
 h1 {
-  margin: 0 auto;
+  font-size: 5.625em;
+  margin: 150px auto 0;
   font-family: "Sacramento", cursive;
 }
 
 h2 {
+  font-size: 2.5rem;
   font-family: "Montserrat", sans-serif;
 }
 
@@ -21,9 +23,60 @@ h3 {
   font-family: "Montserrat", sans-serif;
 }
 
+p {
+  padding: 0px 400px;
+}
+
+.mt {
+  width: 1105px;
+}
+
 .kotlin {
-  width: 300px;
-  border-radius: 100%;
+  width: 100px;
+}
+
+.java {
+  width: 90px;
+}
+
+.python {
+  width: 150px;
+}
+
+.webdev {
+  width: 200px;
+}
+
+.programming {
+  width: 100px;
+}
+
+.cards {
+  width: 100px;
+}
+
+.games {
+  width: 100px;
+}
+
+.linkedin {
+  width: 50px;
+}
+
+.youtube {
+  width: 60px;
+}
+
+.github {
+  width: 50px;
+}
+
+.small_hr {
+  border-color: rgba(49, 48, 48, 0.863);
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 6px;
+  width: 6%;
 }
 
 .top-container {
