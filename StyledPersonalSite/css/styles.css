@@ -89,10 +89,12 @@ p {
   position: absolute;
   right: 300px;
   top: 50px;
+  width: 250px;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 300px;
   bottom: 300px;
+  width: 150px;
 }
