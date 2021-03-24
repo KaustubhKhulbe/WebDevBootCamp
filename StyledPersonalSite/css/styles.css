@@ -8,7 +8,8 @@ h1 {
   margin: 0 auto;
   font-family: sacramento, sans-serif;
   font-size: 5.625rem;
-  color: #66bfbf;
+  /* color: #66bfbf; */
+  color: #625772;
 }
 
 h2 {
@@ -22,6 +23,7 @@ h3 {
   font-family: "Montserrat", sans-serif;
   color: #11999e;
   font-weight: bold;
+  font-size: 2rem;
 }
 
 p {
@@ -32,9 +34,22 @@ img {
   padding-top: 10px;
 }
 
+hr {
+  border-color: rgba(49, 48, 48, 0.863);
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 3px;
+  width: 90%;
+}
+
+.programmer_name {
+  font-size: 1.5rem;
+}
+
 .top-container {
   position: relative;
-  background-color: #e4f9f5;
+  /* background-color: #e4f9f5; */
+  background-color: #a9eee6;
   padding-top: 100px;
 }
 
@@ -58,6 +73,7 @@ img {
 
 .middle-container {
   position: relative;
+  background-color: #e1f8dc;
 }
 
 .greeting-p {
@@ -116,6 +132,13 @@ img {
   margin: 60px auto 0px;
   text-align: left;
   line-height: 2;
+}
+
+.contact-me {
+  background-color: #fefaec;
+}
+.bottom-container {
+  background-color: #fefaec;
 }
 
 .linkedin {
