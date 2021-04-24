@@ -3,9 +3,7 @@
 
 <head>
   <meta charset="utf-8">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Ubuntu:wght@400;700&display=swap" rel="stylesheet">
   <title>TinDog</title>
-  <link rel="stylesheet" href="css/styles.css">
   <!-- Bootstrap CSS -->
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 
@@ -14,11 +12,19 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
   <link rel="preconnect" href="https://fonts.gstatic.com">
   <link rel="preconnect" href="https://fonts.gstatic.com">
+
+  <link rel="stylesheet" href="css/styles.css">
+
+  <!-- Fonts + fornt awesome -->
+  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,900|Ubuntu&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" integrity="sha384-AYmEC3Yw5cVb3ZcuHtOA93w35dYTsvhLPVnYs9eStHfGJvOvKxVfELGroGkvsg+p" crossorigin="anonymous"/>
+
 </head>
 
 <body>
 
   <section id="title">
+    <div class="container-fluid">
 
     <!-- Nav Bar -->
     <nav class="navbar navbar-expand-lg navbar-dark">
@@ -50,13 +56,14 @@
     <div class='row'>
       <div class='col-md-6'>
         <h1>Meet new and interesting dogs nearby.</h1>
-        <button type="button">Download</button>
-        <button type="button">Download</button>
+        <button type="button" class="download-button btn btn-dark btn-lg"><i class="fab fa-apple"></i> Download</button>
+        <button type="button" class="download-button btn btn-outline-light btn-lg"><i class="fab fa-google-play"></i> Download</button>
       </div>
       <div class='col-lg-6'>
-        <img src="images/iphone6.png" alt="iphone-mockup">
+        <img src="images/iphone6.png" class="title-image" alt="iphone-mockup">
       </div>
     </div>
+  </div>
 
   </section>
 
