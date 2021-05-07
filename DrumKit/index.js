@@ -1,12 +1,16 @@
 document.querySelectorAll(".drum").forEach(function(btn){
      btn.addEventListener("click", function(){
                playChar(btn.innerHTML);
+
+               buttonAnimation(btn.innerHTML);
           })
      }
 )
 
 document.addEventListener("keydown", function(e){
      playChar(e.key);
+
+     buttonAnimation(e.key);
 })
 
 function playChar(char){
@@ -34,4 +38,13 @@ function playChar(char){
                break;
           default:
      }
+}
+
+function buttonAnimation(char){
+     var activeBtn = document.querySelector("." + char);
+     activeBtn.classList.add("pressed");
+
+     setTimeout(function (){
+          activeBtn.classList.remove("pressed");
+     }, 100);
 }
