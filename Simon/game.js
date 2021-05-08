@@ -72,4 +72,5 @@ function startOver(){
      gamePattern = [];
      userClickedPattern = [];
      level = 0;
+     started = false;
 }
