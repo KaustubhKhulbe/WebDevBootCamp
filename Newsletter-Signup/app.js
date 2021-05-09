@@ -38,8 +38,8 @@ app.post("/", function(req, res){
      }
 
      const request = https.request(url, options, function(response){
-          if(response.statusCode === 200) res.send("Successs");
-          else res.send("failure");
+          if(response.statusCode === 200) res.sendFile(__dirname + "/success.html");
+          else res.sendFile(__dirname + "/failure.html");
           response.on("data", function(data){
                console.log(JSON.parse(data));
           })
@@ -49,6 +49,10 @@ app.post("/", function(req, res){
      request.end();
 
      console.log(firstName + " " + lastName + " " + email);
+})
+
+app.post("/failure", function(req, res){
+     res.redirect("/")
 })
 
 app.get("/", function(req, res){
